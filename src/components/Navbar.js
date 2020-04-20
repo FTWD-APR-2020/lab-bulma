@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CoolButton from './CoolButton'
 
 export default class Navbar extends Component {
   render() {
@@ -61,7 +62,7 @@ export default class Navbar extends Component {
                         <i className="fab fa-twitter"></i>
                       </span>
                       <span>
-                        Tweet
+                      <CoolButton style="is-danger button my-class" text="Tweet"  />
                       </span>
                     </a>
                   </p>
@@ -70,7 +71,8 @@ export default class Navbar extends Component {
                       <span className="icon">
                         <i className="fas fa-download"></i>
                       </span>
-                      <span>Download</span>
+                      <CoolButton style="is-success button my-class" text="Download"  />
+
                     </a>
                   </p>
                 </div>

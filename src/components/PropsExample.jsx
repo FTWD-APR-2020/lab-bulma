@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class PropsExample extends Component {
   render() {
-    console.log(this.props)
     let str = ` Hello ${this.props.studentName}`
     return (
       <div>
